@@ -90,6 +90,7 @@ void loop() {
 それぞれの部位を光らせます。
 
 ```c
+
 /*************************************************** 
  This is an Example for the FaBo 7Seg I2C Brick.
 
@@ -163,7 +164,7 @@ void loop() {
     delay(100);
   }
 }
-
+```
 
 ## Parts
 - 7セグメントLED
