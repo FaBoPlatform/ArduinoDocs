@@ -12,10 +12,6 @@ I2Cコネクタへ接続します。
 
 ![](/img/200_i2c/connect/208_humidity_connect.jpg)
 
-## Support
-|Arduino|RaspberryPI|
-|:--:|:--:|
-|◯|◯|
 
 ## HTS221 Datasheet
 | Document |
@@ -31,8 +27,11 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/schematic/208_humidity_hts221.png)
 
 ## Library
-### for Arduino
-- [Arduino IDEからインストール](http://fabo.io/library_install.html)
+
+
+![](/img/common/install_lib.png)
+
+![](/img/200_i2c/docs/208_humidity_docs_001.png)
 
   ライブラリ名：「FaBo 208 Humidity HTS221」
 
@@ -48,42 +47,52 @@ pip install FaBoHumidity_HTS221
 - [Library Document](http://fabo.io/doxygen/FaBoHumidity-HTS221-Python/)
 
 ## Sample Code
-### for Arduino
+
 上記のArduino Libraryをインストールし、スケッチの例から、「FaBo 208 Humidity HTS221」→「humidity」を選択してください。
 
-### for RapberryPI
-上記のRapberryPI Python Libraryをインストールしてからご使用ください。
-```python
-# coding: utf-8
-## @package FaBoHumidity_HTS221
-#  This is a library for the FaBo Humidity I2C Brick.
-#
-#  http://fabo.io/208.html
-#
-#  Released under APACHE LICENSE, VERSION 2.0
-#
-#  http://www.apache.org/licenses/
-#
-#  FaBo <info@fabo.io>
+```c
+/*************************************************** 
+ This is an Example for the FaBo Humidity I2C Brick.
 
-import FaBoHumidity_HTS221
-import time
-import sys
+  http://fabo.io/208.html
 
-hts221 = FaBoHumidity_HTS221.HTS221()
+ author:FaBo<info@fabo.io>
+ maintainer:Akira Sasaki<akira@fabo.io>
 
-try:
-    while True:
-        humi = hts221.readHumi()
-        temp = hts221.readTemp()
-        print "Humidity = ", humi
-        print "Temp     = ", temp
-        print
+ Released under APACHE LICENSE, VERSION 2.0
+  http://www.apache.org/licenses/
+ ****************************************************/
 
-        time.sleep(1)
+#include <Wire.h>
+#include <FaBoHumidity_HTS221.h>
 
-except KeyboardInterrupt:
-    sys.exit()
+FaBoHumidity_HTS221 faboHumidity;
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println("RESET");
+  Serial.println();
+
+  Serial.println("configuring device.");
+
+  if (faboHumidity.begin()) {
+    Serial.println("configured FaBo Humidity Brick");
+  } else {
+    Serial.println("device error");
+    while(1);
+  }
+}
+
+void loop() { 
+  double temp = faboHumidity.getTemperature();
+  double humidity = faboHumidity.getHumidity();
+
+  Serial.print(temp);
+  Serial.println(" C");
+  Serial.print(humidity);
+  Serial.println(" %");
+  delay(1000);
+}
 ```
 
 ## Parts
