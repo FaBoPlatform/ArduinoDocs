@@ -31,7 +31,6 @@
     * [#203 Color I2C Brick](brick_i2c/203_brick_i2c_color.md)
     * [#204 Barometer I2C Brick](brick_i2c/204_brick_i2c_barometer.md)
     * [#205 Proximity I2C Brick](brick_i2c/205_brick_i2c_proximity.md)
-    * [#206 UV I2C Brick](brick_i2c/206_brick_i2c_uv.md)
     * [#207 Temperature I2C Brick](brick_i2c/207_brick_i2c_temperature.md)
     * [#208 Humidity I2C Brick](brick_i2c/208_brick_i2c_humidity.md)
     * [#209 Ktemp I2C Brick](brick_i2c/209_brick_i2c_ktemp.md)
