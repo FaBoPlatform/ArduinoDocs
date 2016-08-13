@@ -39,9 +39,9 @@ I2Cで3軸の加速度データを取得することがきます。
 
 ## Library
 
-![](/img/200_i2c/docs/201_3axis_docs_002.jpg)
+![](/img/200_i2c/docs/201_3axis_docs_002.png)
 
-![](/img/200_i2c/docs/201_3axis_docs_003.jpg)
+![](/img/200_i2c/docs/201_3axis_docs_003.png)
 
   ライブラリ名：「FaBo 201 3Axis ADXL345」
 
