@@ -34,8 +34,11 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick表面の�
 ![](/img/200_i2c/schematic/212_lcd.png)
 
 ## Library
-### for Arduino
-- [Arduino IDEからインストール](http://fabo.io/library_install.html)
+
+
+![](/img/common/install_lib.png)
+
+![](/img/200_i2c/docs/212_lcd_docs_003.png)
 
   ライブラリ名：「FaBo 212 LCD PCF8574」
 
@@ -51,45 +54,51 @@ pip install FaBoLCD_PCF8574
 - [Library Document](http://fabo.io/doxygen/FaBoLCD-PCF8574-Python/)
 
 ## Sample Code
-### for Arduino
-上記のArduino Libraryをインストールし、スケッチの例、「FaBo 212 LCD PCF8574」からお選びください。
 
-### for RapberryPI
-上記のRapberryPI Python Libraryをインストールしてからご使用ください。
+Hello Worldを表示するサンプル.
 
-```python
-# coding: utf-8
-## @package FaBoLCD_PCF8574
-#  This is a library for the FaBo LCD I2C Brick.
-#
-#  http://fabo.io/212.html
-#
-#  Released under APACHE LICENSE, VERSION 2.0
-#
-#  http://www.apache.org/licenses/
-#
-#  FaBo <info@fabo.io>
+```c
+/*
+  This is an Example for the FaBo LCD I2C Brick.
 
-import FaBoLCD_PCF8574
-import time
-import sys
+ Library originally added 18 Apr 2008
+ by David A. Mellis
+ library modified 5 Jul 2009
+ by Limor Fried (http://www.ladyada.net)
+ example added 9 Jul 2009
+ by Tom Igoe
+ modified 22 Nov 2010
+ by Tom Igoe
+ compatible library 23 Mar 2016
+ by Hideki Yamauchi
 
-i = 0
-lcd = FaBoLCD_PCF8574.PCF8574()
+ This example code is in the public domain.
 
-lcd.write("Hello, World!")
+ http://fabo.io/212.html
+ */
 
-try:
-    while True:
-        lcd.setCursor(0,1)
-        lcd.write(i)
+// include the library code:
+#include <Wire.h>
+#include <FaBoLCD_PCF8574.h>
 
-        i += 1
+// initialize the library
+FaBoLCD_PCF8574 lcd;
 
-        time.sleep(0.5)
+void setup() {
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  // Print a message to the LCD.
+  lcd.print("hello, world!");
+}
 
-except KeyboardInterrupt:
-    sys.exit()
+void loop() {
+  // Turn off the cursor:
+  lcd.noCursor();
+  delay(500);
+  // Turn on the cursor:
+  lcd.cursor();
+  delay(500);
+}
 ```
 
 ## Parts
