@@ -10,7 +10,6 @@ LEDのBrickです。発光色は5色（青・緑・赤・白・黄）ありま�
 
 ## Connecting
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
-本チュートリアルでは、デジタルコネクタの2に接続します。
 
 ![](/img/100_analog/connect/101_led_connect.jpg)
 
@@ -18,8 +17,8 @@ LEDのBrickです。発光色は5色（青・緑・赤・白・黄）ありま�
 ![](/img/100_analog/schematic/101_led.png)
 
 ## Sample Code
-### for Arduino
-D2コネクタにLED Brickを接続し、一定時間ごとに点灯/消灯（Lチカ）させています。
+D2コネクタにLED Brickを接続し、一定時間(1秒=1000ms)ごとに点灯/消灯（Lチカ）させています。
+
 ```c
 //
 // FaBo Brick Sample
@@ -42,6 +41,7 @@ void loop() {
   delay(1000);
 }
 ```
+
 ## 構成パーツParts
 - 5mm LED(各色)
 
