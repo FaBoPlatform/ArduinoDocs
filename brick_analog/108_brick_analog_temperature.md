@@ -87,9 +87,9 @@ AndroidIDEではシリアルプロッタでも値を確認することが可能�
 
 ArduinoIDEのメニューより[ツール]->[シリアルプロッタ]を選択することで起動できます。
 
-![](/img/100_analog/docs/108_temperature_docs_003.jpg)
+![](/img/100_analog/docs/108_temperature_docs_003.png)
 
-![](/img/100_analog/docs/108_temperature_docs_004.jpg)
+![](/img/100_analog/docs/108_temperature_docs_004.png)
 
 
 ## 構成Parts
