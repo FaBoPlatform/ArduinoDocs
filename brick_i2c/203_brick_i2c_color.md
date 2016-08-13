@@ -39,7 +39,7 @@ I2Cコネクタへ接続します。
 - [Library Document](http://fabo.io/doxygen/FaBoColor-s11059-Library/)
 
 ## Sample Code
-### for Arduino
+
 I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の値を読み取り、シリアルモニタに出力します。
 
 ```c
