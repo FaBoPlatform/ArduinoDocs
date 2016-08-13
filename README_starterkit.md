@@ -1,4 +1,4 @@
-FaBo Arduino
+FaBo Starter Kit for Arduino 導入マニュアル
 =======
 
 # 本ドキュメントについて
