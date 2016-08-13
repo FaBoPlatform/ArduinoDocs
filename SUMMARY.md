@@ -1,38 +1,36 @@
 # Summary
 
-* [TOP](README.md)
+* [初めに](README.md)
 
 ### 環境設定
 
-* [Arduino](dev/README.md)
+* [Arduinoについて](dev/README.md)
     * [ArduinoIDEのインストール](dev/install.md)
     * [Out/Inシールドの接続方法](dev/connect_shield.md)
     * [FaBoライブラリインストール](dev/install_library.md)
 
-
 ### FaBo プロトタイピングツール
 
 * [FaBoについて](fabo/README.md)
-* Starter Kit
     * [Starter Kit for Arduino](fabo/002_starterkit_arduino.md)
 * [Analog Brick](brick_analog/analog_brick.md)
-    * [LED Brick](brick_analog/101_brick_analog_led.md)
-    * [Buzzer Brick](brick_analog/102_brick_analog_buzzer.md)
-    * [Button Brick](brick_analog/103_brick_analog_button.md)
-    * [Angle Brick](brick_analog/104_brick_analog_angle.md)
-    * [Vibrator Brick](brick_analog/105_brick_analog_vibrator.md)
-    * [Touch Brick](brick_analog/106_brick_analog_touch.md)
-    * [LimitSwitch Brick](brick_analog/107_brick_analog_limitswitch.md)
-    * [Temperature Brick](brick_analog/108_brick_analog_temperature.md)
-    * [Ambient Light Brick](brick_analog/109_brick_analog_ambientlight.md)
-    * [Tilt Brick](brick_analog/110_brick_analog_tilt.md)
-    * [Microphone Brick](brick_analog/111_brick_analog_mic.md)
-    * [IR LED Brick](brick_analog/112_brick_analog_ir_led.md)
-    * [IR Receiver Brick](brick_analog/113_brick_analog_ir_receive.md)
-    * [UV Brick](brick_analog/114_brick_analog_uv.md)
-    * [Humidity Brick](brick_analog/115_brick_analog_humidity.md)
-    * [Distance Brick](brick_analog/116_brick_analog_distance.md)
-    * [Switch Brick](brick_analog/117_brick_analog_slideswitch.md)
+    * [#101 LED Brick](brick_analog/101_brick_analog_led.md)
+    * [#102 Buzzer Brick](brick_analog/102_brick_analog_buzzer.md)
+    * [#103 Button Brick](brick_analog/103_brick_analog_button.md)
+    * [#104 Angle Brick](brick_analog/104_brick_analog_angle.md)
+    * [#105 Vibrator Brick](brick_analog/105_brick_analog_vibrator.md)
+    * [#106 Touch Brick](brick_analog/106_brick_analog_touch.md)
+    * [#107 LimitSwitch Brick](brick_analog/107_brick_analog_limitswitch.md)
+    * [#108 Temperature Brick](brick_analog/108_brick_analog_temperature.md)
+    * [#109 Ambient Light Brick](brick_analog/109_brick_analog_ambientlight.md)
+    * [#110 Tilt Brick](brick_analog/110_brick_analog_tilt.md)
+    * [#111 Microphone Brick](brick_analog/111_brick_analog_mic.md)
+    * [#112 IR LED Brick](brick_analog/112_brick_analog_ir_led.md)
+    * [#113 IR Receiver Brick](brick_analog/113_brick_analog_ir_receive.md)
+    * [#114 UV Brick](brick_analog/114_brick_analog_uv.md)
+    * [#115 Humidity Brick](brick_analog/115_brick_analog_humidity.md)
+    * [#116 Distance Brick](brick_analog/116_brick_analog_distance.md)
+    * [#117 Switch Brick](brick_analog/117_brick_analog_slideswitch.md)
 * [I2C Brick](brick_i2c/README.md)
     * [3Axis I2C Brick](brick_i2c/201_brick_i2c_3axis.md)
     * [9Axis I2C Brick](brick_i2c/202_brick_i2c_9axis.md)
