@@ -4,6 +4,7 @@
 * [Arduinoについて](dev/README.md)
     * [ArduinoIDEのインストール](dev/install.md)
     * [Out/Inシールドの接続方法](dev/connect_shield.md)
+    * [#501 OUT/IN Shield for Arduino](outin/501_shield_outin_arduino.md)
     * [FaBoライブラリインストール](dev/install_library.md)
 * [FaBoについて](fabo/README.md)
     * [Starter Kit for Arduino](fabo/002_starterkit_arduino.md)
@@ -53,8 +54,6 @@
     * [#402 Color LED Ring Brick](brick_color/402_brick_3pin_led_circle.md)
     * [#403 Color LED Bar Brick](brick_color/403_brick_3pin_led_bar.md)
     * [#404 Color LED Matrix Brick](brick_color/404_brick_3pin_led_matrix.md)
-* [OUT/IN Shield](outin_shield.md)
-    * [#501 OUT/IN Shield for Arduino](outin/501_shield_outin_arduino.md)
 * Shield
     * [#601 Motor Shield for Arduino](motor/601_motor.md)
     * [#602 Stepping Motor Shield for Arduino](motor/602_stmotor.md)
