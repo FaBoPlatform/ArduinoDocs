@@ -13,10 +13,6 @@ I2Cコネクタへ接続します。
 
 ![](/img/200_i2c/connect/213_lcdmini_connect.jpg)
 
-## Support
-|Arduino|IchigoJam|
-|:--:|:--:|
-|◯|◯|
 
 ## AQM0802A Datasheet
 | Document |
@@ -32,8 +28,10 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/schematic/213_lcd_mini.png)
 
 ## Library
-### for Arduino
-- [Arduino IDEからインストール](http://fabo.io/library_install.html)
+
+![](/img/common/install_lib.png)
+
+![](/img/200_i2c/docs/213_lcdmini_docs_001.png)
 
   ライブラリ名：「FaBo 213 LCD mini AQM0802A」
 
@@ -41,43 +39,54 @@ I2Cコネクタへ接続します。
 - [Library Document](http://fabo.io/doxygen/FaBoLCDmini-AQM0802A-Library)
 
 ## Sample Code
-### for Arduino
+
 上記のArduino Libraryをインストールし、スケッチの例、「FaBo 213 LCD mini AQM0802A」からお選びください。
 
-### for Ichigojam
-I2CコネクタにLCD mini I2C Brickを接続し、LCD上に文字を表示させます。
+下記は、Helloを表示するサンプルです。
+
+```c
+/*
+  This is an Example for the FaBo LCD mini I2C Brick.
+
+ LiquidCrystal Library originally added 18 Apr 2008
+ by David A. Mellis
+ library modified 5 Jul 2009
+ by Limor Fried (http://www.ladyada.net)
+ example added 9 Jul 2009
+ by Tom Igoe
+ modified 22 Nov 2010
+ by Tom Igoe
+ compatible library 2 Mar 2016
+ by Hideki Yamauchi
+
+ This example code is in the public domain.
+
+ http://fabo.io/213.html
+*/
+
+// include the library code:
+#include <Wire.h>
+#include <FaBoLCDmini_AQM0802A.h>
+
+// initialize the library
+FaBoLCDmini_AQM0802A lcd;
+
+void setup() {
+  // set up the LCD:
+  lcd.begin();
+  // Print a message to the LCD.
+  lcd.print("hello!");
+}
+
+void loop() {
+  // set the cursor to column 0, line 1
+  // (note: line 1 is the second row, since counting begins with 0):
+  lcd.setCursor(0, 1);
+  // print the number of seconds since reset:
+  lcd.print(millis() / 1000);
+}
 ```
-10 'LCD INIT
-20 CLS
 
-100 D=#3E
-
-200 POKE #800,#40,0,2,#C0,#39,#11,#70,#56,#6C,#38,#0C
-210 POKE #810,ASC("F"),ASC("a"),ASC("B"),ASC("o"),ASC("T"),ASC("e"),ASC("s"),ASC("t")
-
-300 'init
-310 A=i2cw(D,#801,1,#804,5)
-320 wait 10
-330 A=i2cw(D,#801,1,#809,2)
-340 GOSUB 600
-
-400 'loop
-410 ?"Input Key"
-420 I=INKEY()
-430 POKE #820,I
-440 IF I!=0 GOSUB 700
-450 GOTO 420
-
-600 'LCD OUT Row 1
-610 A=i2cw(D,#801,1,#802,1):'set cursol
-620 A=i2cw(D,#800,1,#810,8):'set FaBoTest
-630 return
-
-700 'LCD OUT Row 2
-710 A=i2cw(D,#801,1,#803,1):'set cursol
-720 A=i2cw(D,#800,1,#820,1):'set Input key
-730 return
-```
 
 ## Parts
 - AQM0802A
