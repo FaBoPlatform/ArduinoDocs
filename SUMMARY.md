@@ -40,7 +40,7 @@
     * [#213 LCD mini I2C Brick](brick_i2c/213_brick_i2c_lcd_mini.md)
     * [#214 OLED I2C Brick](brick_i2c/214_brick_i2c_oled.md)
     * [#215 RTC I2C Brick](brick_i2c/215_brick_i2c_rtc.md)
-    * [#216 AmbientLight I2C Brick](brick_i2c/217_brick_i2c_ambientlight.md)
+    * [#217 AmbientLight I2C Brick](brick_i2c/217_brick_i2c_ambientlight.md)
 * [Serial Brick](brick_serial/serial_brick.md)
     * [#301 BLE SiliconLabs Serial Brick](brick_serial/301_brick_serial_ble.md)
     * [#302 Bluetooth Serial Brick](brick_serial/302_brick_serial_bluetooth.md)
