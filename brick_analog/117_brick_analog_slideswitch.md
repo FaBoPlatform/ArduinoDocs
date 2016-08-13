@@ -9,29 +9,41 @@
 I/OピンよりスライドスイッチのON/OFFをデジタル値で取得できます。
 
 ## Connecting
-### Arduino
-アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
-### Raspberry PI
-GPIOコネクタのいずれかに接続します。
-
-### IchigoJam
-OUTコネクタのいずれかに接続します。
-
-## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|◯|
-
-## Schematic
 
 ## Sample Code
-### for Arduino
 
-### for Raspberry PI
+A0コネクタにスイッチを接続し、D2にLEDを接続する。
 
-### for IchigoJam
+```c
+#define switchPin A0 // スイッチピン
+#define ledPin 2 // LEDピン
 
-## Parts
+void setup() {
+  // スイッチピンを入力用に設定
+  pinMode(switchPin, INPUT);
+  // LEDピンを出力用に設定
+  pinMode(ledPin, OUTPUT);
+}
+
+int switchFlag = 0;
+
+void loop() {
+  // スイッチの値を取得
+  switchFlag = digitalRead(switchPin);
+
+  // スイッチがONならLEDをつける
+  if (switchFlag == HIGH) {
+    digitalWrite(ledPin, HIGH);
+  } else {
+    digitalWrite(ledPin, LOW);
+  }
+
+}
+```
+
+## 構成Parts
 - スライドスイッチ
 
 ## GitHub
+
+https://github.com/FaBoPlatform/FaBo/tree/master/117_slideswitch
