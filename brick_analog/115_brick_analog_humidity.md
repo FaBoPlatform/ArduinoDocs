@@ -9,15 +9,11 @@
 温度、湿度の情報を取得することができます。
 
 ## Connecting
-### Arduino
+
 アナログコネクタ(A0〜A5)のいずれかに接続します。
 
 ![](/img/100_analog/connect/115_humidity_connect.jpg)
 
-## Support
-|Arduino|
-|:--:|
-|◯|
 
 ## Parts Specification
 | Document |
@@ -28,14 +24,15 @@
 ![](/img/100_analog/schematic/115_humidity.png)
 
 ## Sample Code
-### for Arduino
 A0コネクタに接続して、湿度を計測するサンプルになります。
 
 このサンプルコードでは外部ライブラリを使用します。
 
 - [GitHub Library](https://github.com/adafruit/DHT-sensor-library)
 
-- [Arduino IDEからインストール](http://fabo.io/library_install.html)
+![](/img/100_analog/docs/115_humidity_docs_001.png)
+
+![](/img/100_analog/docs/115_humidity_docs_001.png)
 
   ライブラリ名：「DHT sensor library」
 
@@ -73,7 +70,7 @@ void loop() {
 ```
 
 
-## Parts
+## 構成Parts
 - 湿温度センサモジュールDHT11
 
 ## GitHub

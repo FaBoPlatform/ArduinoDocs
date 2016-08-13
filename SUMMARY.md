@@ -19,7 +19,6 @@
     * [#108 Temperature Brick](brick_analog/108_brick_analog_temperature.md)
     * [#109 Ambient Light Brick](brick_analog/109_brick_analog_ambientlight.md)
     * [#110 Tilt Brick](brick_analog/110_brick_analog_tilt.md)
-    * [#111 Microphone Brick](brick_analog/111_brick_analog_mic.md)
     * [#112 IR LED Brick](brick_analog/112_brick_analog_ir_led.md)
     * [#113 IR Receiver Brick](brick_analog/113_brick_analog_ir_receive.md)
     * [#114 UV Brick](brick_analog/114_brick_analog_uv.md)
