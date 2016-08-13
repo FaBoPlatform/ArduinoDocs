@@ -48,14 +48,6 @@ MPU-9250は、三軸加速度、ジャイロ用とコンパス用の2つのI2C S
 - [Library GitHub](https://github.com/FaBoPlatform/FaBo9AXIS-MPU9250-Library)
 - [Library Document](http://fabo.io/doxygen/FaBo9AXIS-MPU9250-Library/)
 
-### for RapberryPI
-- pipからインストール
-```
-pip install FaBo9Axis_MPU9250
-```
-- [Library GitHub](https://github.com/FaBoPlatform/FaBo9AXIS-MPU9250-Python)
-- [Library Document](http://fabo.io/doxygen/FaBo9AXIS-MPU9250-Python/)
-
 ## Sample Code
 I2Cコネクタに接続した9Axis I2C Brickより３軸加速度、３軸ジャイロ、３軸コンパス情報を取得し、シリアルモニタに出力します。
 
