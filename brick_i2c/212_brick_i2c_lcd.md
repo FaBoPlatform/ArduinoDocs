@@ -45,14 +45,6 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick表面の�
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoLCD-PCF8574-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoLCD-PCF8574-Library)
 
-### for RapberryPI
-- pipからインストール
-```
-pip install FaBoLCD_PCF8574
-```
-- [Library GitHub](https://github.com/FaBoPlatform/FaBoLCD-PCF8574-Python)
-- [Library Document](http://fabo.io/doxygen/FaBoLCD-PCF8574-Python/)
-
 ## Sample Code
 
 Hello Worldを表示するサンプル.
