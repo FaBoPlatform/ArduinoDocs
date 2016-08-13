@@ -32,7 +32,7 @@ A0コネクタに接続して、湿度を計測するサンプルになります
 
 ![](/img/100_analog/docs/115_humidity_docs_001.png)
 
-![](/img/100_analog/docs/115_humidity_docs_001.png)
+![](/img/100_analog/docs/115_humidity_docs_002.png)
 
   ライブラリ名：「DHT sensor library」
 
