@@ -1,6 +1,6 @@
 # Summary
 
-* [初めに](README.md)
+* [はじめに](README.md)
 * [Arduinoについて](dev/README.md)
     * [ArduinoIDEのインストール](dev/install.md)
     * [Out/Inシールドの接続方法](dev/connect_shield.md)
