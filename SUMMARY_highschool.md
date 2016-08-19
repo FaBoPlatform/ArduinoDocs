@@ -19,4 +19,4 @@
 * [Motor Shield for Arduino](motor/601_motor.md)
 
 # 課題
-* [高校生向け課題](project/highcshool.md)
+* [高校生向け課題](project/highschool.md)
