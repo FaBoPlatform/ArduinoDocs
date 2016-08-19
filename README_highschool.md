@@ -17,6 +17,9 @@ Arduino Programing Language
 
 Arduino IDE
 
+# 講習実績
+2016年2月 宇都宮工業高校 3年生向け授業<br>
+
 # 使用ハード
 
 [FaBo Starter Kit for Arduino](http://www.fabo.io/002.html)

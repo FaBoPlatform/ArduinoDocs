@@ -19,6 +19,4 @@
 * [Motor Shield for Arduino](motor/601_motor.md)
 
 # 課題
-* [Level1] Angle Brickをつかって回転の速度を調節してみよう
-* [Level2] 温度センサーで、温度が高くなったら回転させよう
-* [Level3] 距離センサーで、手が近づいたら回転させよう
+* [高校生向け課題](project/highshool.md)
