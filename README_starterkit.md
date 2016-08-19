@@ -21,5 +21,9 @@ Arduino IDE
 
 [FaBo Starter Kit for Arduino](http://www.fabo.io/002.html)
 
+# 講習実績
+
+* 2015年 宇都宮大学大学院授業
+* 2015年 会津大学OpenAppLab
 
 Powered by [FaBo](http://www.fabo.io)
