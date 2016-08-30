@@ -1,6 +1,8 @@
 FaBo Arduino
 =======
 
+![](/img/title_arduino.png)
+
 # 本ドキュメントについて
 
 IoT入門者向けのプログラム学習用のドキュメントになっています。

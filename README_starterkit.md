@@ -1,6 +1,8 @@
 FaBo Starter Kit for Arduino 導入マニュアル
 =======
 
+![](/img/title_arduino_starter.png)
+
 # 本ドキュメントについて
 
 FaBo Starter Kit for Aruino用のチュートリアルです。

@@ -1,6 +1,8 @@
 FaBo STEM Kit for Arduino 導入マニュアル
 =======
 
+![](/img/title_arduino_stem.png)
+
 # 本ドキュメントについて
 
 FaBo STEM Kit for ArduinoのSTEM教育向けチュートリアルです。
