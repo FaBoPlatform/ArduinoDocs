@@ -41,7 +41,7 @@ Serialコネクタへ接続します。
 上記のArduino Libraryをインストールし、スケッチの例、「FaBo 307 BLE Nordic」からお選びください。
 
 Beacon発信
-```
+```c
 //
 // FaBo BLE Brick
 //
@@ -116,7 +116,7 @@ void loop()
 ```
 
 GATT
-```
+```c
 //
 // FaBo BLE Brick
 //
@@ -229,7 +229,7 @@ void loop()
 ```
 
 SCAN
-```
+```c
 //
 // FaBo BLE Brick
 //
