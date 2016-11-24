@@ -1,14 +1,7 @@
 # Summary
 
 * [はじめに](README.md)
-# Arduinoの準備
-* [Arduinoについて](dev/README.md)
-    * [ArduinoIDEのインストール](dev/install.md)
-    * [Out/Inシールドの接続方法](dev/connect_shield.md)
-    * [#501 OUT/IN Shield for Arduino](outin/501_shield_outin_arduino.md)
-    * [FaBoライブラリインストール](dev/install_library.md)
-* [FaBoについて](fabo/README.md)
-    * [Starter Kit for Arduino](fabo/002_starterkit_arduino.md)
+
 # 基礎トレーニング
 * [#102 Buzzer Brick](brick_analog/102_brick_analog_buzzer.md)
 * [#103 Button Brick](brick_analog/103_brick_analog_button.md)
