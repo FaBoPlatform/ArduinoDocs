@@ -92,4 +92,4 @@ void loop() {
 - AQM0802A
 
 ## GitHub
-- https://github.com/FaBoPlatform/FaBo/tree/master/213_lcd_mini
+- https://github.com/FaBoPlatform/FaBoLCDmini-AQM0802A-Library
