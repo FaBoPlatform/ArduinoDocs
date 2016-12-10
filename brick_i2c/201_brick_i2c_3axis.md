@@ -163,4 +163,4 @@ void loop() {
 - Analog Devices ADXL345
 
 ## GitHub
-- https://github.com/FaBoPlatform/FaBo/tree/master/201_3axis
+- https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library
