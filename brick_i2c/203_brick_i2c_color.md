@@ -95,4 +95,4 @@ void loop() {
 - HAMAMATSU S11059
 
 ## GitHub
-- https://github.com/FaBoPlatform/FaBo/tree/master/203_color
+- https://github.com/FaBoPlatform/FaBoColor-s11059-Library
