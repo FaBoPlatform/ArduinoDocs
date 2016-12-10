@@ -26,9 +26,11 @@ RGB Color LEDをRing状に12個配置したBrickです。
 
 ## Sample Code
 ### for Arduino
-このサンプルコードでは外部ライブラリを使用します。
 
-https://github.com/adafruit/Adafruit_NeoPixel よりAdafruit_NeoPixelライブラリをインストールしてください。
+![](/img/common/install_lib.png)
+
+![](/img/400_led/docs/401_driver.png)
+
 
 ```c
 //
