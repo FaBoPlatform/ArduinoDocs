@@ -11,7 +11,7 @@ I2Cでデータを取得できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/100_analog/connect/204_new_with_arduino.jpg)
+![](/img/200_i2c/connect/204_new_with_arduino.jpg)
 
 ## MPL115A2 Datasheet
 | Document |
