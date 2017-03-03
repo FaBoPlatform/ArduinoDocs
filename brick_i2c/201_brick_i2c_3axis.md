@@ -11,8 +11,7 @@ I2Cで3軸の加速度データを取得することがきます。
 ## センサー取得データについて
 このBrickでは下の図の3軸の値を取得します。
 
-![](/img/100_analog/connect/201_new_with_arduino.jpg)
-
+![](/img/200_i2c/docs/201_3axis_docs_001.jpg)
 
 それぞれ矢印の方向に力がかかるとプラス、逆方向ではマイナスとなります。
 
@@ -23,7 +22,8 @@ I2Cで3軸の加速度データを取得することがきます。
 
 ※4Pinケーブル、各種OUT/INシールド、各種ケースは別売です。
 
-![](/img/200_i2c/connect/201_3axis_connect.jpg)
+![](/img/100_analog/connect/201_new_with_arduino.jpg)
+
 
 ## ADXL345 Datasheet
 | Document |
