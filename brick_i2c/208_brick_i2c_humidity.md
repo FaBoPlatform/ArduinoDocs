@@ -10,7 +10,7 @@ I2Cでデータを取得できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/100_analog/connect/208_new_with_arduino.jpg)
+![](/img/200_i2c/connect208_new_with_arduino.jpg)
 
 
 ## HTS221 Datasheet
