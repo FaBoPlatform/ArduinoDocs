@@ -13,7 +13,7 @@
 アナログ用コネクタ(IN2またはANA()で設定したコネクタ)のどれかに接続します。
 
 ## Schematic
-![](/img/100_analog/connect/114_new_with_arduino.jpg)
+![](/img/100_analog/schematic/114_uv.png)
 
 ## Sample Code
 A0コネクタに接続し、紫外線の強弱をアナログ値で出力します。
