@@ -9,7 +9,8 @@
 ## Connecting
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 
-![](/img/100_analog/connect/102_buzzer_connect.jpg)
+![](/img/100_analog/connect/102_new_with_arduino.jpg)
+
 
 ## Schematic
 ![](/img/100_analog/schematic/102_buzzer.png)

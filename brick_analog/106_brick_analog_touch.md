@@ -10,7 +10,7 @@ I/Oピンより、感圧部分に加えられた力の大きさの変化をア�
 
 アナログコネクタ(A0〜A5)のいずれかに接続します。
 
-![](/img/100_analog/connect/106_touch_connect.jpg)
+![](/img/100_analog/connect/107_new_with_arduino.jpg)
 
 ## Datasheet
 | Document |

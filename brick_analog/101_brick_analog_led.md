@@ -11,7 +11,7 @@ LEDのBrickです。発光色は5色（青・緑・赤・白・黄）ありま�
 ## Connecting
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 
-![](/img/100_analog/connect/101_led_connect.jpg)
+![](/img/100_analog/connect/101_new_with_arduino.jpg)
 
 ## Schematic
 ![](/img/100_analog/schematic/101_led.png)

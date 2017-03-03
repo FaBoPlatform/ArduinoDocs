@@ -9,7 +9,7 @@ RGB Color LEDをRing状に12個配置したBrickです。
 ## Connecting
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のどれかに接続します。
 
-![](/img/400_led/connect/402_ledring_connect.jpg)
+![](/img/400_led/connect/402_new_with_arduino.jpg)
 
 ## Support
 |Arduino|RaspberryPI|

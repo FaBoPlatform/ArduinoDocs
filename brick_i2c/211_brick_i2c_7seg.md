@@ -11,7 +11,7 @@ I2Cで表示パターンを制御できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-<center>![](/img/200_i2c/connect/211_7seg_connect.jpg)
+<center>![](/img/100_analog/connect/211_new_with_arduino.jpg)
 
 ## TLC59208F Datasheet
 | Document |

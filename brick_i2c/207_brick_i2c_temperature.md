@@ -12,7 +12,7 @@ I2Cでデータを取得できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/207_temperature_connect.jpg)
+![](/img/100_analog/connect/207_new_with_arduino.jpg)
 
 ## ADT7410 Datasheet
 | Document |

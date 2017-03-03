@@ -11,8 +11,7 @@ I2Cで表示データを制御できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/213_lcdmini_connect.jpg)
-
+![](/img/100_analog/connect/213_new_with_arduino.jpg)
 
 ## AQM0802A Datasheet
 | Document |

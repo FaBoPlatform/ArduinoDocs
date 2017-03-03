@@ -11,7 +11,7 @@ I2Cで表示データを制御できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/212_lcd_connect.jpg)
+![](/img/100_analog/connect/212_new_with_arduino.jpg)
 
 ## Support
 |Arduino|RaspberryPI|

@@ -10,7 +10,7 @@ I2Cでデータを取得できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/208_humidity_connect.jpg)
+![](/img/100_analog/connect/208_new_with_arduino.jpg)
 
 
 ## HTS221 Datasheet

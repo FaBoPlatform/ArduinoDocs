@@ -10,6 +10,9 @@ I/OピンよりスライドスイッチのON/OFFをデジタル値で取得で�
 
 ## Connecting
 
+![](/img/100_analog/connect/117_new_with_arduino.jpg)
+
+
 ## Sample Code
 
 A0コネクタにスイッチを接続し、D2にLEDを接続する。
