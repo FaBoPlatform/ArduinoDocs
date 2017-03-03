@@ -15,7 +15,7 @@ LED Brickを点灯/消灯させる際などに使用します。
 
 ## Connecting
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
-![](/img/100_analog/connect/110_new_with_arduino.jpg)
+![](/img/100_analog/connect/110_tilt_connect.jpg)
 
 ## Schematic
 ![](/img/100_analog/schematic/110_tilt.png)
