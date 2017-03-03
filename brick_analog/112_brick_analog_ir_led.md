@@ -11,7 +11,7 @@ I/Oピンから赤外線LEDをON/OFFを制御することができます。
 ## Connecting
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 
-![](/img/100_analog/connect/112_new_with_arduino.jpg)
+![](/img/100_analog/connect/112_ir_connect_2.jpg.jpg)
 
 ### IchigoJam
 OUTコネクタのいずれかに接続します。
