@@ -15,7 +15,7 @@
 |◯|◯|◯|
 
 ## Schematic
-![](/img/100_analog/schematic/111_mic_schematic.png)
+![](/img/100_analog/connect/111_new_with_arduino.jpg)
 
 ## Sample Code
 ### for Arduino

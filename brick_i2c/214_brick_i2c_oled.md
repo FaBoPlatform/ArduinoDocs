@@ -12,6 +12,7 @@ I2Cで表示データを制御できます。
 I2Cコネクタへ接続します。
 
 
+
 ## ER-OLED0.96 Datasheet
 | Document |
 | -- |

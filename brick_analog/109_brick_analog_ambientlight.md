@@ -11,7 +11,7 @@ CDSセルを使用した光センサーBrickです。
 ## Connecting
 アナログコネクタ(A0〜A5)のいずれかに接続します。
 
-![](/img/100_analog/connect/109_ambientlight_connect.jpg)
+![](/img/100_analog/connect/109_new_with_arduino.jpg)
 
 ## Parts Specification
 | Document |

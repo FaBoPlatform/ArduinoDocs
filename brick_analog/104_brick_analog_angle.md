@@ -14,7 +14,7 @@ LED Brickの明るさを調節する際などに使用します。
 
 アナログコネクタ(A0〜A5)のいずれかに接続します。
 
-![](/img/100_analog/connect/104_angle_connect.jpg)
+![](/img/100_analog/connect/104_new_with_arduino.jpg)
 
 ## Schematic
 ![](/img/100_analog/schematic/104_angle.png)

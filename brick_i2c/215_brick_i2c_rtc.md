@@ -10,7 +10,7 @@ I2Cでデータを取得できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/215_rtc_connect.jpg)
+![](/img/200_i2c/connect/215_new_with_arduino.jpg)
 
 ## PCF2129 Datasheet
 | Document |

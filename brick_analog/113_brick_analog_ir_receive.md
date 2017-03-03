@@ -11,7 +11,7 @@ I/Oピンから赤外線受信のON/OFFを取得することができます。
 ## Connecting
 
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
-![](/img/100_analog/connect/113_ir_receiver_connect.jpg)
+![](/img/100_analog/connect/113_new_with_arduino.jpg)
 
 ## Parts Specification
 | Document |

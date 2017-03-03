@@ -11,7 +11,7 @@
 
 アナログコネクタ(A0〜A5)のいずれかに接続します。
 
-![](/img/100_analog/connect/108_temperature_connect.jpg)
+![](/img/100_analog/connect/108_new_with_arduino.jpg)
 
 ## LM61CIZ Datasheet
 | Document |

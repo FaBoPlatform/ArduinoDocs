@@ -11,7 +11,7 @@
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/203_color_connect.jpg)
+![](/img/200_i2c/connect/203_new_with_arduino.jpg)
 
 
 ## S11059 Datasheet

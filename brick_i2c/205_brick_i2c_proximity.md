@@ -11,7 +11,7 @@ I2Cでデータを取得できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/205_proximity_connect.jpg)
+![](/img/200_i2c/connect/205_new_with_arduino.jpg)
 
 
 ## VCNL4010 Datasheet
