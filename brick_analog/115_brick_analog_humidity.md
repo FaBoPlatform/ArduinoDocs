@@ -36,14 +36,6 @@ A0コネクタに接続して、湿度を計測するサンプルになります
   ライブラリ名：「DHT sensor library」
 
 ```c
-//
-// FaBo Brick Sample
-//
-// #115 Humidity Brick
-//
-// DHT Library Downloads
-// https://github.com/adafruit/DHT-sensor-library
-
 #include "DHT.h"
 DHT dht(A0, DHT11);
 

@@ -36,8 +36,6 @@ A0コネクタに接続したButton Brickの入力により、D2コネクタに�
 #define vibratorPin 2 // Vibratorピン
 #define buttonPin A0  // ボタンピン
 
-int buttonState = 0;
-
 void setup() {
   // Vibratorピンを出力用に設定
   pinMode(vibratorPin, OUTPUT);
@@ -47,7 +45,7 @@ void setup() {
 
 void loop(){
   // ボタンの押下状況を取得
-  buttonState = digitalRead(buttonPin);
+  int buttonState = digitalRead(buttonPin);
 
   // ボタン押下判定
   if (buttonState == HIGH) {

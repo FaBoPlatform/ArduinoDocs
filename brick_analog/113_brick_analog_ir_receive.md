@@ -26,33 +26,25 @@ I/Oピンから赤外線受信のON/OFFを取得することができます。
 
 A0コネクタに赤外線受信Brick、A1コネクタにLED Brickを接続し、赤外線を受信したらLEDを発光させます。
 
+
 ```c
-//
-// FaBo Brick Sample
-//
-// #113 IR Receiver Brick
-//
-
-#define ir_receivePin A0
-#define ledPin A1
-
-int irState = 0;
+#define receivePin A0
+#define irledPin 2
 
 void setup() {
-  pinMode(ir_receivePin, INPUT);
-  pinMode(ledPin, OUTPUT);
+  pinMode(receivePin, INPUT);
+  pinMode(irledPin, OUTPUT);
+  digitalWrite(irledPin, HIGH);
+
+  Serial.print("SETUP");
 }
 
 void loop() {
-  irState = digitalRead(ir_receivePin);
+  int irState = digitalRead(receivePin);
 
   if (irState == HIGH) {
-    digitalWrite(ledPin, HIGH);
+    Serial.println("Received");
   }
-  else {
-    digitalWrite(ledPin, LOW);
-  }
-
 }
 ```
 

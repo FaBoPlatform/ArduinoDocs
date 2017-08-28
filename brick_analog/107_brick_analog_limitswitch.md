@@ -36,17 +36,8 @@ OUTコネクタのいずれかに接続します。
 A0コネクタにLimitSwitch Brickを接続し、D2コネクタに接続したLED Brickの点灯/消灯を制御しています。
 
 ```c
-//
-// FaBo Brick Sample
-//
-// #107 LimitSwitch Brick
-//
-
 #define buttonPin A0 // リミットスイッチピン
 #define ledPin 2     // LEDピン
-
-// リミットスイッチの状況取得用
-int buttonState = 0;
 
 void setup() {
   // リミットスイッチピンを入力用に設定
@@ -57,7 +48,7 @@ void setup() {
 
 void loop(){
   // リミットスイッチの押下状況を取得
-  buttonState = digitalRead(buttonPin);
+  int buttonState = digitalRead(buttonPin);
 
   // リミットスイッチ判定
   if (buttonState == LOW) {

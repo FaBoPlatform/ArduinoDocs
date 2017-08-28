@@ -28,11 +28,9 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 }
 
-int switchFlag = 0;
-
 void loop() {
   // スイッチの値を取得
-  switchFlag = digitalRead(switchPin);
+  int switchFlag = digitalRead(switchPin);
 
   // スイッチがONならLEDをつける
   if (switchFlag == HIGH) {

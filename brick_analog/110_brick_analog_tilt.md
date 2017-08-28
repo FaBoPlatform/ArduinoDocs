@@ -25,16 +25,8 @@ LED Brickを点灯/消灯させる際などに使用します。
 A0コネクタに接続したTilt Brickの傾きによって、D2コネクタに接続したLED Brickを点灯/消灯させています。
 
 ```c
-//
-// FaBo Brick Sample
-//
-// #110 Tilt Brick
-//
-
 #define buttonPin A0
 #define ledPin 2
-
-int buttonState = 0;
 
 void setup() {
   pinMode(buttonPin, INPUT);
@@ -43,7 +35,7 @@ void setup() {
 
 void loop(){
 
-  buttonState = digitalRead(buttonPin);
+  int buttonState = digitalRead(buttonPin);
 
   if (buttonState == HIGH) {
     digitalWrite(ledPin, HIGH);

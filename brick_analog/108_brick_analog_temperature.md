@@ -27,15 +27,7 @@
 A0コネクタにTemprature Brickを接続して、取得した温度をシリアルモニタへ出力します。
 
 ```c
-//
-// FaBo Brick Sample
-//
-// #108 Temperature Brick
-//
-
 #define tempPin A0 // 温度センサーピン
-
-int tempValue = 0; // 温度取得用
 
 void setup() {
   // 温度センサーピンを入力用に設定
@@ -47,7 +39,7 @@ void setup() {
 
 void loop() {
   // センサーより値を取得(0〜1023)
-  tempValue = analogRead(tempPin);
+  int tempValue = analogRead(tempPin);
 
   // 取得した値を電圧に変換 (0〜5000mV)
   tempValue = map(tempValue, 0, 1023, 0, 5000);

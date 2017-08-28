@@ -28,31 +28,25 @@ OUTコネクタのいずれかに接続します。
 ## Sample Code
 ### for Arduino
 A0コネクタに赤外線LED Brick、A1コネクタにボタンBrickを接続し、ボタンが押されたら赤外線LEDを発光させます。
-```c
-//
-// FaBo Brick Sample
-//
-// #112 IR LED Brick
-//
 
-#define ir_ledPin A0
+```c
+#define irledPin A0
 #define buttonPin A1
 
-int buttonState = 0;
-
 void setup() {
-  pinMode(ir_ledPin, OUTPUT);
+  pinMode(irledPin, OUTPUT);
   pinMode(buttonPin, INPUT);
 }
 
 void loop() {
-  buttonState = digitalRead(buttonPin);
+  
+  int buttonState = digitalRead(buttonPin);
 
   if (buttonState == HIGH) {
-    digitalWrite(ir_ledPin, HIGH);
+    digitalWrite(irledPin, HIGH);
   }
   else {
-    digitalWrite(ir_ledPin, LOW);
+    digitalWrite(irledPin, LOW);
   }
 
 }
