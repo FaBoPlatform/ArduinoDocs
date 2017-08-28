@@ -19,13 +19,12 @@ LEDのBrickです。発光色は5色（青・緑・赤・白・黄）ありま�
 ## Sample Code
 D2コネクタにLED Brickを接続し、一定時間(1秒=1000ms)ごとに点灯/消灯（Lチカ）させています。
 
-```c
-//
-// FaBo Brick Sample
-//
-// #101 LED Brick
-//
+|定数|値|
+|:--|:--|
+|HIGH|1|
+|LOW|0|
 
+```c
 #define ledPin 2 // LEDピン
 
 void setup() {

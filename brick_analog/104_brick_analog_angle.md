@@ -36,17 +36,8 @@ LED Birckの色の明るさを変えるには、PWMの端子につなぐ必要�
 になっています。(Arduinoと同じ)
 
 ```c
-//
-// FaBo Brick Sample
-//
-// #104 Angle Brick
-//
-
 #define anglePin A0 // Angleピン
 #define ledPin 3    // LEDピン
-
-int angleValue = 0;
-int outputValue = 0;
 
 void setup() {
   // Angleピンを入力用に設定
@@ -57,9 +48,9 @@ void setup() {
 
 void loop() {
   // Angleから値を取得(0〜1023)
-  angleValue = analogRead(anglePin);
+  int angleValue = analogRead(anglePin);
   // analogWrite用に取得した値を変換
-  outputValue = map(angleValue, 0, 1023, 0, 255);
+  int outputValue = map(angleValue, 0, 1023, 0, 255);
   // PWMによりLED点灯
   analogWrite(ledPin, outputValue);
 }

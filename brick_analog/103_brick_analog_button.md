@@ -19,17 +19,8 @@
 
 A0コネクタに接続したButton Brickの入力により、D2コネクタに接続したLED Brick の点灯/消灯を制御しています。
 ```c
-//
-// FaBo Brick Sample
-//
-// #103 Button Brick
-//
-
 #define buttonPin A0 // ボタンピン
 #define ledPin 2     // LEDピン
-
-// ボタンの押下状況取得用
-int buttonState = 0;
 
 void setup() {
   // ボタンピンを入力用に設定
@@ -40,7 +31,7 @@ void setup() {
 
 void loop(){
   // ボタンの押下状況を取得
-  buttonState = digitalRead(buttonPin);
+  int buttonState  = digitalRead(buttonPin);
 
   // ボタン押下判定
   if (buttonState == HIGH) {
