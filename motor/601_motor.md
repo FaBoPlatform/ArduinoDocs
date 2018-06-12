@@ -14,7 +14,7 @@ DCモーター、およびサーボモーターを制御するシールドです
 ### DCモータ用コネクタ
 - Moter1用コネクタ
 - Moter2用コネクタ
-- 外部電源(DCモータ用)
+- 外部電源
 
 ### アナログコネクタ
 - A0
@@ -70,7 +70,7 @@ VINピンの使用状況によってVINスイッチのON/OFFを切り替えて�
 #include <Wire.h>
 
 // I2Cアドレス
-#define ADR_DRV      0x64  // モータードライバ(DRV8830)のアドレス
+#define ADR_DRV      0x64  // MOTOR1(DRV8830)のスレーブアドレス
 #define ADR_CTR      0x00  // CONTROLレジスタのアドレス
 
 // 速度設定 (電圧)
