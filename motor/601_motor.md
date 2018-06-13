@@ -1,6 +1,6 @@
 # #601 Motor Shield for Arduino
 
-<center>![](/img/600_shield/product/600_motor_product.jpg)
+![](/img/600_shield/product/601_motor.jpg)
 <!--COLORME-->
 
 ## Overview
