@@ -122,6 +122,7 @@ void loop() {
  @author FaBo<info@fabo.io>
 */
 
+
 #include <Wire.h>
 #include <FaBo3Axis_ADXL345.h>
 
@@ -135,28 +136,25 @@ void setup()
   
   if(fabo3axis.searchDevice()){
     Serial.println("I am ADXL345");
+    fabo3axis.configuration();
+    fabo3axis.powerOn();
+    fabo3axis.enableTap();  
   }
-  Serial.println("Init...");
-  fabo3axis.configuration();
-  fabo3axis.powerOn();
+
 }
 
 void loop() {
-  int x;
-  int y;
-  int z;
-  
-  fabo3axis.readXYZ(&x,&y,&z);
 
-  Serial.print("x: ");
-  Serial.print(x);
-  Serial.print(", y: ");
-  Serial.print(y);
-  Serial.print(", z: ");
-  Serial.println(z);
- 
-  delay(1000);
+  byte tap = fabo3axis.readIntStatus();
+
+  if(fabo3axis.isDoubleTap(tap)){
+    Serial.println("Double Tap");
+  } else if(fabo3axis.isSingleTap(tap)){
+    Serial.println("Single Tap");
+  }
+  delay(10);
 }
+
 ```
 
 
