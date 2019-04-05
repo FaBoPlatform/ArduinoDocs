@@ -654,8 +654,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#connecting" title="Connecting" class="md-nav__link">
-    Connecting
+  <a href="#_2" title="接続" class="md-nav__link">
+    接続
   </a>
   
 </li>
@@ -675,8 +675,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#schematic" title="Schematic" class="md-nav__link">
-    Schematic
+  <a href="#_3" title="回路図" class="md-nav__link">
+    回路図
   </a>
   
 </li>
@@ -689,15 +689,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sample-code-1" title="Sample Code 1" class="md-nav__link">
-    Sample Code 1
+  <a href="#1" title="ソースコード 1" class="md-nav__link">
+    ソースコード 1
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sample-code-2" title="Sample Code 2" class="md-nav__link">
-    Sample Code 2
+  <a href="#2" title="ソースコード 2" class="md-nav__link">
+    ソースコード 2
   </a>
   
 </li>
@@ -1643,8 +1643,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#connecting" title="Connecting" class="md-nav__link">
-    Connecting
+  <a href="#_2" title="接続" class="md-nav__link">
+    接続
   </a>
   
 </li>
@@ -1664,8 +1664,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#schematic" title="Schematic" class="md-nav__link">
-    Schematic
+  <a href="#_3" title="回路図" class="md-nav__link">
+    回路図
   </a>
   
 </li>
@@ -1678,15 +1678,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sample-code-1" title="Sample Code 1" class="md-nav__link">
-    Sample Code 1
+  <a href="#1" title="ソースコード 1" class="md-nav__link">
+    ソースコード 1
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sample-code-2" title="Sample Code 2" class="md-nav__link">
-    Sample Code 2
+  <a href="#2" title="ソースコード 2" class="md-nav__link">
+    ソースコード 2
   </a>
   
 </li>
@@ -1723,20 +1723,20 @@
                 
                 
                 <h1 id="201-3axis-i2c-brick">#201 3Axis I2C Brick</h1>
-<p><center><img alt="" src="/img/200_i2c/product/201.jpg" />
+<p><img alt="" src="../../img/200_i2c/product/201.jpg" />
 <!--COLORME--></p>
 <h2 id="overview">Overview</h2>
 <p>3軸加速度センサーを使用したBrickです。</p>
 <p>I2Cで3軸の加速度データを取得することがきます。</p>
 <h2 id="_1">センサー取得データについて</h2>
 <p>このBrickでは下の図の3軸の値を取得します。</p>
-<p><img alt="" src="/img/200_i2c/docs/201_3axis_docs_001.jpg" /></p>
+<p><img alt="" src="../../img/200_i2c/docs/201_3axis_docs_001.jpg" /></p>
 <p>それぞれ矢印の方向に力がかかるとプラス、逆方向ではマイナスとなります。</p>
 <p>なお、このBrickを水平に置いた場合、重力がZ軸にかかっている状態となるので、X軸、Y軸が0に近く、Z軸のみ高い値となります。</p>
-<h2 id="connecting">Connecting</h2>
+<h2 id="_2">接続</h2>
 <p>4Pinケーブルで、OUT/INシールドのI2Cコネクタへ接続します。</p>
 <p>※4Pinケーブル、各種OUT/INシールド、各種ケースは別売です。</p>
-<p><img alt="" src="/img/100_analog/connect/201_new_with_arduino.jpg" /></p>
+<p><img alt="" src="../img/100_analog/connect/201_new_with_arduino.jpg" /></p>
 <h2 id="adxl345-datasheet">ADXL345 Datasheet</h2>
 <table>
 <thead>
@@ -1763,17 +1763,17 @@
 </tr>
 </tbody>
 </table>
-<h2 id="schematic">Schematic</h2>
-<p><img alt="" src="/img/200_i2c/schematic/201_3axis.png" /></p>
+<h2 id="_3">回路図</h2>
+<p><img alt="" src="../../img/200_i2c/schematic/201_3axis.png" /></p>
 <h2 id="library">Library</h2>
-<p><img alt="" src="/img/common/install_lib.png" /></p>
-<p><img alt="" src="/img/200_i2c/docs/201_3axis_docs_002.png" /></p>
+<p><img alt="" src="../../img/common/install_lib.png" /></p>
+<p><img alt="" src="../../img/200_i2c/docs/201_3axis_docs_002.png" /></p>
 <p>ライブラリ名：「FaBo 201 3Axis ADXL345」</p>
 <ul>
 <li><a href="https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library">Library GitHub</a></li>
 <li><a href="http://fabo.io/doxygen/FaBo3Axis-ADXL345-Library/">Library Document</a></li>
 </ul>
-<h2 id="sample-code-1">Sample Code 1</h2>
+<h2 id="1">ソースコード 1</h2>
 <p>I2Cコネクタに接続した3Axis I2C Brickより３軸の加速度情報を取得し、シリアルモニタに出力します。</p>
 <p> <table class=codehilitetable><tr><td class=linenos><div class=linenodiv><pre> 1
  2
@@ -1871,7 +1871,7 @@
   <span class=n>delay</span><span class=p>(</span><span class=mi>1000</span><span class=p>);</span>
 <span class=p>}</span>
 </pre></div></td></tr></table></p>
-<h2 id="sample-code-2">Sample Code 2</h2>
+<h2 id="2">ソースコード 2</h2>
 <p>シングルタップとダブルタップを取得する例です。</p>
 <p> <table class=codehilitetable><tr><td class=linenos><div class=linenodiv><pre> 1
  2
